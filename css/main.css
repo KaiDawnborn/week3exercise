@@ -1,0 +1,15 @@
+/* CSS = Cascading Stylesheets */
+
+/*
+CSS Selector {
+	property: value;
+}
+*/
+
+div {
+	display: inline-block;
+	background-color: pink;
+	height: 80vh;
+	width: 40vw;
+	padding: 5px;
+}
