@@ -6,10 +6,43 @@ CSS Selector {
 }
 */
 
-div {
+nav ul {
+	margin: auto;
+	text-align: center;
+}
+nav li {
 	display: inline-block;
+	padding: 6px 15px;
 	background-color: pink;
-	height: 80vh;
-	width: 40vw;
-	padding: 5px;
+	border: 3px solid pink;
+	transition: 0.5s ease; /*ease the hover effect over the course of half a second.*/
+}
+nav {
+	background-color: beige;
+}
+nav a {
+	text-decoration: none;
+	color: maroon;
+}
+nav li:hover {
+	background-color: maroon;
+	border: 3px solid pink;
+}
+nav a:hover {
+	color: pink;
+	font-size: 1.5em;
+}
+div {
+	height: 250px;
+	text-align: center;
+}
+div button {
+	background-color: beige;
+	border: 1px solid beige;
+	padding: 6px 15px;
+	margin: 10px;
+}
+div button:hover {
+	background-color: #ececd4;
+	color: white;
 }
